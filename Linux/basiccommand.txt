@@ -1,0 +1,19 @@
+#Install Git
+sudo apt-get update
+sudo apt-get install git
+
+#Config Git
+git config --global user.name "Your Name"
+git config --global user.email "youremail@domain.com"
+git config --global credential.helper 'cache --timeout=3600'
+mkdir ~/git
+cd ~/git
+
+#Download Scripts
+git clone https://github.com/RakutenBrasil/infra-ops
+
+#Add Files
+Git Pull
+Git Add Folder/FileName
+Git Commit -m "Comment"
+Git Push

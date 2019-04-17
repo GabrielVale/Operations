@@ -1,0 +1,9 @@
+Rodar no DC "Run as Administrator"
+
+djoin.exe /provision /domain ikeda.cluster /machine IKWEBXX /savefile .\odjblob
+
+Copiar o arquivo que foi gerado para o sevidor que será ingressado ao dominio e rodar o seguinte comando:
+
+djoin.exe /REQUESTODJ /LOADFILE c:\odjblob /WINDOWSPATH c:\windows /LOCALOS
+
+

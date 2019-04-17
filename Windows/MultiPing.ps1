@@ -1,0 +1,1 @@
+Test-Connection -count 1 -Source "ikweb01", "ikweb02", "ikweb03", "ikweb04", "ikweb05", "ikweb06", "ikweb08", "ikweb09", "ikweb10", "ikweb11", "ikweb12", "ikweb13", "ikweb14", "ikweb15", "ikweb16", "ikweb17", "ikweb18", "ikweb19" -ComputerName "IKSQLCLUSTER04", "IKSQLCLUSTER05", "IKSQLCLUSTER06", "IKSQLCLUSTER07"

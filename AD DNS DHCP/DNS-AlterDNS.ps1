@@ -1,0 +1,1 @@
+﻿$Servers = Get-Content -Path E:\PS\Servers.txtforeach ($DNS in $Servers){Invoke-Command -ComputerName $DNS -ScriptBlock {Set-DnsClientServerAddress -InterfaceAlias LB -ServerAddresses ("172.16.174.3","172.16.174.5")}Invoke-Command -ComputerName $DNS -ScriptBlock {Set-DnsClientServerAddress -InterfaceAlias Interna -ServerAddresses ("192.168.0.135","192.168.0.133")}}
